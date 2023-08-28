@@ -1,23 +1,18 @@
 package com.example.brainfusion.model;
 
+import android.util.Base64;
+
 import java.util.ArrayList;
+
+import java.util.List;
 
 public class ImageResponseModel {
 
-    public String uuid;
-    public String status;
-    public Object errorDescription;
-    public ArrayList<String> images;
-    public boolean censored;
-
-    public ImageResponseModel(String uuid, String status, Object errorDescription, ArrayList<String> images, boolean censored) {
-        this.uuid = uuid;
-        this.status = status;
-        this.errorDescription = errorDescription;
-        this.images = images;
-        this.censored = censored;
-    }
-
+    private String uuid;
+    private String status;
+    private Object errorDescription;
+    private ArrayList<String> images;
+    private boolean censored;
 
     public String getUuid() {
         return uuid;

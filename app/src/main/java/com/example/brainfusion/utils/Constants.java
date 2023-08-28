@@ -11,7 +11,8 @@ public class Constants {
 
 
     //IMAGE
-    public static final String BASEAPIIMAGE = BASEAPI+"/status/";
+    public static final String BASEAPIIMAGE = BASEAPI+"status/";
+    public static final String IMAGEENDPOINT = "status/";
 
 
     public static final String USERAGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36";
