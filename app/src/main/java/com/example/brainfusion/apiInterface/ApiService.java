@@ -1,6 +1,6 @@
-package com.example.brainfusion;
+package com.example.brainfusion.apiInterface;
 
-import com.google.gson.JsonObject;
+import com.example.brainfusion.model.UidModel;
 
 import okhttp3.RequestBody;
 import retrofit2.Call;

@@ -1,4 +1,4 @@
-package com.example.brainfusion;
+package com.example.brainfusion.model;
 
 public class UidModel {
     public String status;

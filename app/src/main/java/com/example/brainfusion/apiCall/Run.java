@@ -1,10 +1,8 @@
-package com.example.brainfusion;
+package com.example.brainfusion.apiCall;
 
-import com.google.gson.JsonObject;
+import com.example.brainfusion.apiInterface.ApiService;
+import com.example.brainfusion.model.UidModel;
 
-import java.io.IOException;
-
-import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.RequestBody;
 import okhttp3.logging.HttpLoggingInterceptor;

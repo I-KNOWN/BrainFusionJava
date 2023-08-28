@@ -1,10 +1,13 @@
-package com.example.brainfusion;
+package com.example.brainfusion.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+
+import com.example.brainfusion.R;
+import com.example.brainfusion.apiCall.Run;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
